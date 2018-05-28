@@ -1,0 +1,25 @@
+#yml实现多个profile配置操作
+spring:
+  profiles:
+    active: product #表示默认使用dev开发环境的配置信息
+---
+spring:       #表示该配置直接由spring容器处理
+  messages:   #表示资源文件配置
+    basename: i18n/Messages,i18n/Pages  #配置资源文件名
+  profiles: dev  #开发环境
+server:  #服务的端口
+  port: 8080
+--- # yml多个profile配置使用 三个“-” 分割
+spring:       
+  messages:  
+    basename: i18n/Messages,i18n/Pages  
+  profiles: beta # 测试环境
+server:  
+  port: 9090
+--- # yml多个profile配置使用 三个“-” 分割
+spring:       
+  messages:   
+    basename: i18n/Messages,i18n/Pages  
+  profiles: product # 生产环境
+server: 
+  port: 80

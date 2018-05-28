@@ -1,0 +1,8 @@
+com\lxc\intro\microboot\advance\service\impl\MessageServiceImpl.class
+com\lxc\intro\microboot\advance\controller\ThymeleafController.class
+com\lxc\intro\microboot\advance\util\AbstractBaseController.class
+com\lxc\intro\microboot\advance\controller\MessageController.class
+com\lxc\intro\microboot\StartSpringBootMain.class
+com\lxc\intro\microboot\advance\service\IMessageService.class
+com\lxc\intro\microboot\advance\config\ServiceConfig.class
+com\lxc\intro\microboot\advance\controller\AdvanceController.class

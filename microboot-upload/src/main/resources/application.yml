@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  messages:
+    basename: properties/message
+ # http:
+ #   multipart: 
+ #     enabled: true #是否支持http上传
+ #      location: / #临时文件目录
+ #     max-file-size: 2MB #单个上传文件的最大值
+ #     max-request-size: 10MB #多个文件上传的最大值
+ #     file-size-threshold: 512KB 

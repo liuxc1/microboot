@@ -1,0 +1,8 @@
+spring:       #表示该配置直接由spring容器处理
+  thymeleaf:
+    suffix: .html
+  messages:   #表示资源文件配置
+    basename: i18n/Messages,i18n/Pages  #配置资源文件名
+server:
+  port: 80
+  

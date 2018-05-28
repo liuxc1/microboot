@@ -1,0 +1,6 @@
+server:
+  port: 443                            #https的默认端口为443
+  ssl:
+    key-store: classpath:server.keystore  #keystore配置文件的路径
+    key-alias: tomcat                #keystore的别名
+    key-password: 123456               #keysore访问密码

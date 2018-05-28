@@ -1,0 +1,24 @@
+server:
+  port: 80
+spring:
+  redis:
+    host: 192.168.1.104 #IP
+    port: 6378          #端口
+    database: 0         #数据库
+    password: lxc       #连接密码
+    timeout: 1000       #连接超时
+    pool:               #连接池配置
+      max-active: 10    #最大的本地连接数
+      max-idle: 8       #最大的保持连接数
+      min-idle: 2       #最小连接数据
+      max-wait: 1000    #最大的等待时间  
+  redis-two:
+    host: localhost     #IP
+    port: 6379          #端口
+    database: 0         #数据库
+    timeout: 1000       #连接超时
+    pool:               #连接池配置
+      max-active: 10    #最大的本地连接数
+      max-idle: 8       #最大的保持连接数
+      min-idle: 2       #最小连接数据
+      max-wait: 1000    #最大的等待时间  
